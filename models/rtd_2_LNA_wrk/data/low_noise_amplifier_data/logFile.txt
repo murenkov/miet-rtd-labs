@@ -1,0 +1,22 @@
+
+hpeesofsim (*) 510.shp Jul 22 2019, MINT version 5
+    (64-bit windows built: Mon Jul 22, 2019 22:53:59 +0000)
+
+Warning detected by hpeesofsim during DC analysis `SP1'.
+    Circuit converged with at least one device's P-N junction current
+            exceeding the explosion current and junction has been linearized.
+            You may want to increase the explosion current in the device model or in
+            the Options (if the parameter is not given in the model) and resimulate.
+            You may need to increase Maximum number of warnings under Output tab
+            in Options to see which devices have been linearized.
+Warning detected by hpeesofsim during DC analysis `SP1'.
+    Diode `Q1.DIODE1' explosion current exceeded.
+Warning detected by hpeesofsim during DC analysis `SP1'.
+    BJT `Q1.BJT1' explosion current exceeded.
+
+SP SP1[1] <rtd_2_LNA_lib:low_noise_amplifier:schematic>   freq=(685 MHz->715 MHz)
+
+
+Resource usage:
+  Total stopwatch time     =     4.18 seconds.
+
