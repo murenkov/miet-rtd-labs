@@ -1,0 +1,4 @@
+INCLUDE $HPEESOF_DIR/oalibs/analog_rf.defs
+INCLUDE $HPEESOF_DIR/oalibs/dsp.defs
+DEFINE rtd_6_complex_envelop_lib rtd_6_complex_envelop_lib
+ASSIGN rtd_6_complex_envelop_lib libMode shared
