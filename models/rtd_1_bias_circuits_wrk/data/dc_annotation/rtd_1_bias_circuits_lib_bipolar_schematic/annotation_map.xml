@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotation_files Time="Чт май 27 15:40:52 2021" Simulator="hpeesofsim" Version="1.0">
+ <File name="annotation_1.xml">
+  <Controller name="DC1">
+   <P>SRC_B.Idc: 0.0000000000000000e+00</P>
+   <P>SRC_CE.Vdc: 0.0000000000000000e+00</P>
+  </Controller>
+ </File>
+</annotation_files>

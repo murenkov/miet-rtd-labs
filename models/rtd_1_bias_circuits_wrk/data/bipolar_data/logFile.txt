@@ -1,0 +1,58 @@
+
+hpeesofsim (*) 510.shp Jul 22 2019, MINT version 5
+    (64-bit windows built: Mon Jul 22, 2019 22:53:59 +0000)
+
+
+CT Sweep1[1] <rtd_1_bias_circuits_lib:bipolar:schematic>   SRC_B.Idc=(0 A->450 uA)
+
+DC Sweep1[1].DC1[1/16] <rtd_1_bias_circuits_lib:bipolar:schematic>  SRC_B.Idc=0 A  SRC_CE.Vdc=(0 V->4.5 V)
+...........................................................................................
+
+DC Sweep1[1].DC1[2/16] <rtd_1_bias_circuits_lib:bipolar:schematic>  SRC_B.Idc=30 uA  SRC_CE.Vdc=(0 V->4.5 V)
+...........................................................................................
+
+DC Sweep1[1].DC1[3/16] <rtd_1_bias_circuits_lib:bipolar:schematic>  SRC_B.Idc=60 uA  SRC_CE.Vdc=(0 V->4.5 V)
+...........................................................................................
+
+DC Sweep1[1].DC1[4/16] <rtd_1_bias_circuits_lib:bipolar:schematic>  SRC_B.Idc=90 uA  SRC_CE.Vdc=(0 V->4.5 V)
+...........................................................................................
+
+DC Sweep1[1].DC1[5/16] <rtd_1_bias_circuits_lib:bipolar:schematic>  SRC_B.Idc=120 uA  SRC_CE.Vdc=(0 V->4.5 V)
+...........................................................................................
+
+DC Sweep1[1].DC1[6/16] <rtd_1_bias_circuits_lib:bipolar:schematic>  SRC_B.Idc=150 uA  SRC_CE.Vdc=(0 V->4.5 V)
+...........................................................................................
+
+DC Sweep1[1].DC1[7/16] <rtd_1_bias_circuits_lib:bipolar:schematic>  SRC_B.Idc=180 uA  SRC_CE.Vdc=(0 V->4.5 V)
+...........................................................................................
+
+DC Sweep1[1].DC1[8/16] <rtd_1_bias_circuits_lib:bipolar:schematic>  SRC_B.Idc=210 uA  SRC_CE.Vdc=(0 V->4.5 V)
+...........................................................................................
+
+DC Sweep1[1].DC1[9/16] <rtd_1_bias_circuits_lib:bipolar:schematic>  SRC_B.Idc=240 uA  SRC_CE.Vdc=(0 V->4.5 V)
+...........................................................................................
+
+DC Sweep1[1].DC1[10/16] <rtd_1_bias_circuits_lib:bipolar:schematic>  SRC_B.Idc=270 uA  SRC_CE.Vdc=(0 V->4.5 V)
+...........................................................................................
+
+DC Sweep1[1].DC1[11/16] <rtd_1_bias_circuits_lib:bipolar:schematic>  SRC_B.Idc=300 uA  SRC_CE.Vdc=(0 V->4.5 V)
+...........................................................................................
+
+DC Sweep1[1].DC1[12/16] <rtd_1_bias_circuits_lib:bipolar:schematic>  SRC_B.Idc=330 uA  SRC_CE.Vdc=(0 V->4.5 V)
+...........................................................................................
+
+DC Sweep1[1].DC1[13/16] <rtd_1_bias_circuits_lib:bipolar:schematic>  SRC_B.Idc=360 uA  SRC_CE.Vdc=(0 V->4.5 V)
+...........................................................................................
+
+DC Sweep1[1].DC1[14/16] <rtd_1_bias_circuits_lib:bipolar:schematic>  SRC_B.Idc=390 uA  SRC_CE.Vdc=(0 V->4.5 V)
+...........................................................................................
+
+DC Sweep1[1].DC1[15/16] <rtd_1_bias_circuits_lib:bipolar:schematic>  SRC_B.Idc=420 uA  SRC_CE.Vdc=(0 V->4.5 V)
+...........................................................................................
+
+DC Sweep1[1].DC1[16/16] <rtd_1_bias_circuits_lib:bipolar:schematic>  SRC_B.Idc=450 uA  SRC_CE.Vdc=(0 V->4.5 V)
+...........................................................................................
+
+Resource usage:
+  Total stopwatch time     =     2.67 seconds.
+
