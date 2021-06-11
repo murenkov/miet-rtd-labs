@@ -39,7 +39,7 @@
 
 %%
 \newcommand*{\hm}[1]{#1\nobreak\discretionary{}{\hbox{$\mathsurround=Opt #1$}}{}}
-\newcommand*{\romannum}[1]{\uppercase\expandafter{\romannumeral #1\relax}}
+\newcommand*{\romannum}[1]{\uppercase{\romannumeral\ #1\relax}}
 
 %% Images
 \usepackage{graphicx}
@@ -59,7 +59,7 @@
 \usepackage[lflt]{floatflt}
 \usepackage{subcaption}
 \usepackage{caption}
-\renewcommand\thesubfigure{\asbuk{subfigure}}
+\renewcommand{\thesubfigure}{\asbuk{subfigure}}
 
 %% Tables
 \usepackage{array,tabularx,tabulary,booktabs}
@@ -100,6 +100,9 @@
 \lhead{Муренков Ярослав, РТ-33}
 \rhead{}
 
+\usepackage{xcolor}
+\definecolor{light-gray}{gray}{0.8}
+
 %% Line spacing
 \usepackage{setspace}
 \onehalfspacing
@@ -126,6 +129,7 @@
 \renewcommand{\emptyset}{\varnothing}
 
 \newcommand{\elementname}{\texttt}
+\newcommand{\code}[1]{\colorbox{light-gray}{\texttt{#1}}}
 
 \usepackage{titlesec}
 \titleformat{\chapter}{\LARGE\normalfont\bfseries\filcenter}{}{1em}{}
