@@ -1,0 +1,78 @@
+
+/* SCATTERING PARAMETERS*/
+AJ_SmithChart_SParmMag = list(0.78610961079625,0.031530893929659,11.834368353555,0.90839584529862);
+AJ_SmithChart_SParmAng = list(-49.002602949438,64.967172563843,152.85358291226,-17.599040092836);
+AJ_SmithChart_SParmFreq = 0.685;
+AJ_SmithChart_Z0 = 50;
+
+/* NOISE PARAMETERS */
+AJ_SmithChart_FMin = 1.19502588;
+AJ_SmithChart_rn = 0.225656729;
+AJ_SmithChart_GammaOPT = 0.241479+0.0788466i;
+
+/* SMITH CHART CONSTANT CIRCLES */
+AJ_SmithChart_ConstantResistanceList = list(0.2,0.5,1,5,10);
+AJ_SmithChart_ConstantReactanceList = list(0.2,0.5,1,5,10);
+AJ_SmithChart_ConstantConductanceList = list(0.2,0.5,1,5,10);
+AJ_SmithChart_ConstantSusceptanceList = list(0.2,0.5,1,5,10);
+
+/* SMITH CHART -> CIRCLES -> OPTIONS... */
+AJ_SmithChart_CircleValuesList = list(".1",".2",".5","1","2","5","10","20","50");
+AJ_SmithChart_RCircleValuesIndexes = list(1,2,3,5,6);
+AJ_SmithChart_XCircleValuesIndexes = list(1,2,3,5,6);
+AJ_SmithChart_GCircleValuesIndexes = list(1,2,3,5,6);
+AJ_SmithChart_BCircleValuesIndexes = list(1,2,3,5,6);
+
+/* SMITH CHART -> CIRCLES -> COLORS... */
+AJ_SmithChart_ImpedanceColor = 5;
+AJ_SmithChart_AdmittanceColor = 1;
+AJ_SmithChart_QColor = 0;
+AJ_SmithChart_VSWRinColor = 0;
+AJ_SmithChart_VSWRoutColor = 0;
+AJ_SmithChart_NoiseColor = 0;
+AJ_SmithChart_GaColor = 0;
+AJ_SmithChart_GpColor = 0;
+AJ_SmithChart_GsColor = 0;
+AJ_SmithChart_GlColor = 0;
+
+/* BOOLEAN SHOW/HIDE CIRCLE */
+AJ_SmithChart_ResistanceCircles = TRUE;
+AJ_SmithChart_ReactanceCircles = TRUE;
+AJ_SmithChart_ConductanceCircles = FALSE;
+AJ_SmithChart_SusceptanceCircles = FALSE;
+AJ_SmithChart_QCircles = FALSE;
+AJ_SmithChart_UnilateralGsCircle = FALSE;
+AJ_SmithChart_UnilateralGlCircle = FALSE;
+AJ_SmithChart_BilateralGaCircle = FALSE;
+AJ_SmithChart_BilateralGpCircle = FALSE;
+AJ_SmithChart_FnCircle = FALSE;
+AJ_SmithChart_VSWRinCircles = FALSE;
+AJ_SmithChart_VSWRoutCircles = FALSE;
+AJ_SmithChart_InputStabilityCircle = FALSE;
+AJ_SmithChart_OutputStabilityCircle = FALSE;
+
+/* CIRCLE INDEPENDENT VARIABLES */
+AJ_SmithChart_UnilateralGs = 0;
+AJ_SmithChart_UnilateralGl = 0;
+AJ_SmithChart_BilateralGa = 0;
+AJ_SmithChart_BilateralGp = 0;
+AJ_SmithChart_VSWRinGammaLMag = 0.5;
+AJ_SmithChart_VSWRinGammaLAng = 90;
+AJ_SmithChart_VSWRin = 1;
+AJ_SmithChart_VSWRoutGammaSMag = 0.5;
+AJ_SmithChart_VSWRoutGammaSAng = 90;
+AJ_SmithChart_VSWRout = 1;
+AJ_SmithChart_Q = 1;
+AJ_SmithChart_Fn = 0;
+AJ_SmithChart_NetList = list(list(10,50,63.088174562758,500000000,0),list(8,50,142.02611723746,500000000,0));
+AJ_SmithChart_TrailList = list(list(176,-223,225,-225,211.16233792435,-272.04805105719,0,8),list(211.16233792435,-272.04805105719,124.02630032699,-225,223.05221087247,-225.27784363821,1,6));
+AJ_SmithChart_QList = list(3,3);
+AJ_SmithChart_QCheck = list(0,0);
+AJ_SmithChart_ZList = list(50,50);
+AJ_SmithChart_SourceX = 225;
+AJ_SmithChart_SourceY = -226;
+AJ_SmithChart_LoadX = 176;
+AJ_SmithChart_LoadY = -223;
+AJ_SmithChart_TailX = 223.05221087247;
+AJ_SmithChart_TailY = -225.27784363821;
+AJ_SmithChart_NodeSelectedIndex = 0;

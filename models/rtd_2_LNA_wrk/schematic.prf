@@ -106,6 +106,7 @@ pinSizeUnits 0
 teeSizeUnits 0
 portSizeUnits 0
 pinSnapSize 15.000000
+keepoutOutlineThickness 1
 placePopupOnZeroParm 0
 autoRepeatableCompPlcmnt 1
 dragMove 1
