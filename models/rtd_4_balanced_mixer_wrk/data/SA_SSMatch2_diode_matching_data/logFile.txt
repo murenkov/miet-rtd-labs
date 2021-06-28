@@ -1,0 +1,11 @@
+
+hpeesofsim (*) 510.shp Jul 22 2019, MINT version 5
+    (64-bit windows built: Mon Jul 22, 2019 22:53:59 +0000)
+
+
+SP SP1[1] <rtd_4_balanced_mixer_lib:SA_SSMatch2_diode_matching:schematic>   freq=(4.6 GHz->14 GHz)
+
+
+Resource usage:
+  Total stopwatch time     =     4.97 seconds.
+
