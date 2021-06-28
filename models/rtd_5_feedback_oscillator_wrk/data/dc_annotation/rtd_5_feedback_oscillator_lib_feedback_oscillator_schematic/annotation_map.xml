@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<annotation_files Version="1.0" Time="Пт май 21 13:05:48 2021" Simulator="hpeesofsim">
+<annotation_files Version="1.0" Time="Чт июн 10 14:58:29 2021" Simulator="hpeesofsim">
  <File name="annotation_1.xml">
-  <Controller name="DC1">
-   <P>freq: 0.0000000000000000e+00</P>
+  <Controller name="HB1">
+   <P>P_res: -2.0000000000000000e+01</P>
   </Controller>
  </File>
 </annotation_files>
