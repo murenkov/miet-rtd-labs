@@ -92,7 +92,7 @@
 
 \begin{figure}[!ht]
     \centering
-    \includegraphics[width=0.7\textwidth]{simulation_modeling_schematic_3.pdf}
+    \includegraphics[width=\textwidth]{simulation_modeling_schematic_3.pdf}
     \caption{Моделируемая схема}%
     \label{fig:simulation_modeling_schematic_3}
 \end{figure}
@@ -106,3 +106,44 @@
 
 \subsection{Анализ бюджета канала}
 
+С помощью контроллера \elementname{Budget} определим распределение энергетических, шумовых и прочих параметров вдоль канала.
+Для этого поменяем схему и настроим блок \elementname{Budget} в соответствии с Рис.~\ref{fig:simulation_modeling_schematic_4}.
+
+\begin{figure}[!ht]
+    \centering
+    \includegraphics[width=\textwidth]{simulation_modeling_schematic_4.pdf}
+    \caption{Моделируемая схема}%
+    \label{fig:simulation_modeling_schematic_4}
+\end{figure}
+
+Промоделировав схему, выведем на экране данных таблицу (Рис.~\ref{fig:simulation_modeling_data_4_budget_table}).
+
+\begin{figure}[!ht]
+    \centering
+    \includegraphics[width=0.7\textwidth]{simulation_modeling_data_4_budget_table.pdf}
+    \caption{Бюджет канала}%
+    \label{fig:simulation_modeling_data_4_budget_table}
+\end{figure}
+
+\subsection{Анализ фазовых шумов}
+
+Проведём анализ фазовых шумов.
+Для этого воспользуемся блоком \elementname{NoiseCon}.
+Изменим схему и настроим этот блок в соответствии с Рис.~\ref{fig:simulation_modeling_schematic_5}.
+
+\begin{figure}[!ht]
+    \centering
+    \includegraphics[width=\textwidth]{simulation_modeling_schematic_5.pdf}
+    \caption{Моделируемая схема}%
+    \label{fig:simulation_modeling_schematic_5}
+\end{figure}
+
+Запустим моделировани и добавим прямоугольный график зависимости $pnmx$ от $noisefreq$.
+Последнюю для удобства выведем в логарифмическом масштабе.
+
+\begin{figure}[!ht]
+    \centering
+    \includegraphics[width=0.7\textwidth]{simulation_modeling_data_5_phase_noise.pdf}
+    \caption{Анализ фазовых шумов}%
+    \label{fig:simulation_modeling_data_5_phase_noise}
+\end{figure}
