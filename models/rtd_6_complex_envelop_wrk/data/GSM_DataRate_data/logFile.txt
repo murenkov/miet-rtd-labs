@@ -1,0 +1,30 @@
+
+hpeesofsim (*) 511.update1.0 Nov 21 2019, MINT version 5
+    (64-bit windows built: Fri Nov 22, 2019 03:45:24 +0000)
+
+
+HB Env1[1] <rtd_6_complex_envelop_lib:GSM_DataRate:schematic>
+Pt DC convergence is used.
+Message from hpeesofsim during DC analysis `Env1'.
+    Required filter order is calculated to be 4 for component
+                 `BPF1.CMP1'
+    Number of tones:   1.
+    Number of frequencies:   8.
+    Number of time samples:  32.
+    Number of HB equations (problem size): 510.
+    Auto mode: on.
+    Convergence mode: Auto.
+    Linear solver: direct.
+------------------------------------------------------------------------------
+Newton solver:					
+Iter	KCL residual	Damp %	Sol update
+------------------------------------------------------------------------------
+0.0*	20 mA       	100.0             
+1.0 	145.219 aA  	100.0	58.4426 aV   
+
+HB Env1[1] <rtd_6_complex_envelop_lib:GSM_DataRate:schematic>   time=(0 s->86.2069 us)
+..............................................................................................................................
+
+Resource usage:
+  Total stopwatch time     =    16.14 seconds.
+

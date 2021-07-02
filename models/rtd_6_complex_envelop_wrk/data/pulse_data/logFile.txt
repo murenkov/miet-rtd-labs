@@ -1,0 +1,11 @@
+
+hpeesofsim (*) 511.update1.0 Nov 21 2019, MINT version 5
+    (64-bit windows built: Fri Nov 22, 2019 03:45:24 +0000)
+
+
+HB Env1[1] <rtd_6_complex_envelop_lib:pulse:schematic>   time=(0 s->76.8 ns)
+.................................................................
+
+Resource usage:
+  Total stopwatch time     =    18.69 seconds.
+

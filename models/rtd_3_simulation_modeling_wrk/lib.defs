@@ -1,0 +1,4 @@
+INCLUDE $HPEESOF_DIR/oalibs/analog_rf.defs
+DEFINE rtd_3_simulation_modeling_lib C:\murenkov\rtd_3_simulation_modeling_wrk\rtd_3_simulation_modeling_lib
+ASSIGN rtd_3_simulation_modeling_lib libMode shared
+INCLUDE $HOME/RF_Transistors_vendor_kit/lib.defs

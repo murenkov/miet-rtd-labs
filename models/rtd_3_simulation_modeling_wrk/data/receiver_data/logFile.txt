@@ -1,0 +1,51 @@
+
+hpeesofsim (*) 511.update1.0 Nov 21 2019, MINT version 5
+    (64-bit windows built: Fri Nov 22, 2019 03:45:24 +0000)
+
+Warning detected by hpeesofsim in topology check during circuit set up.
+    Number of nodes with no DC path to ground (topology corrected): 4
+
+
+HB HB1[1] <rtd_3_simulation_modeling_lib:receiver:schematic>
+Pt DC convergence is used.
+Message from hpeesofsim during DC analysis `HB1'.
+    Required filter order is calculated to be 7 for component
+                 `BPF1.CMP1'
+    Number of tones:   1.
+    Number of frequencies:   6.
+    Number of time samples:  16.
+    Number of HB equations (problem size): 451.
+    Auto mode: on.
+    Convergence mode: Auto.
+    Linear solver: direct.
+------------------------------------------------------------------------------
+Newton solver:					
+Iter	KCL residual	Damp %	Sol update
+------------------------------------------------------------------------------
+0.0*	13.3176 pA  	100.0             
+
+HB HB1[1] <rtd_3_simulation_modeling_lib:receiver:schematic>
+    Number of tones:   2.
+    Number of frequencies:   23.
+    Number of time samples:  128.
+    Number of HB equations (HB problem size): 1845.
+    Number of SS/noise equations (SS/noise problem size): 3690.
+    Auto mode: on.
+    Convergence mode: Auto.
+    Linear solver: direct.
+------------------------------------------------------------------------------
+Newton solver:					
+Iter	KCL residual	Damp %	Sol update
+------------------------------------------------------------------------------
+0.0*	707.946 mA  	100.0             
+1.0*	707.946 mA  	100.0	7.01113 kV   
+2.0*	1.33593 kA  	100.0	7.00777 kV   
+3.0*	475.111 mA  	100.0	3.8788 V     
+4.0 	452.878 mA  	100.0	3.20233 V    
+4.1*	758.994 pA  	100.0	5.36689 nV   
+
+NC1 HB1[1] <rtd_3_simulation_modeling_lib:receiver:schematic>   noisefreq=(10 Hz->100 kHz) 5 points
+
+Resource usage:
+  Total stopwatch time     =    14.81 seconds.
+

@@ -1,0 +1,103 @@
+
+hpeesofsim (*) 510.shp Jul 22 2019, MINT version 5
+    (64-bit windows built: Mon Jul 22, 2019 22:53:59 +0000)
+
+Warning detected by hpeesofsim during netlist flattening.
+    Too many sweep limit specifiers given in `HB1_stim'.
+    All but Start and Stop were ignored.
+
+CT Sweep1[1] <rtd_4_balanced_mixer_lib:balanced_mixer:schematic>   P_LO=(0->14)
+
+HB Sweep1[1].HB1[1/15] <rtd_4_balanced_mixer_lib:balanced_mixer:schematic>
+Pt DC convergence is used.
+    Number of tones:   1.
+    Number of frequencies:   6.
+    Number of time samples:  16.
+    Number of HB equations (problem size): 836.
+    Auto mode: on.
+    Convergence mode: Auto.
+    Linear solver: direct.
+------------------------------------------------------------------------------
+Newton solver:					
+Iter	KCL residual	Damp %	Sol update
+------------------------------------------------------------------------------
+0.0*	10.4232 aA  	100.0             
+
+HB Sweep1[1].HB1[1/15] <rtd_4_balanced_mixer_lib:balanced_mixer:schematic>  P_LO=0  RF=(1->10)
+    Number of tones:   2.
+    Number of frequencies:   23.
+    Number of time samples:  128.
+    Number of HB equations (problem size): 3420.
+    Auto mode: on.
+    Convergence mode: Auto.
+    Linear solver: direct.
+Error detected by hpeesofsim during HB analysis `HB1'.
+    Fundamental frequencies must be positive.
+
+
+--------------------------
+Solver convergence summary:
+--------------------------
+RHS:
+1.735e-18  A at node DA_RRCoupler1.Tee2.i1, harmonic index (0, 1)
+1.735e-18  A at node DA_RRCoupler1.Tee1.i1, harmonic index (0, 1)
+1.735e-18  A at node DA_RRCoupler1.Tee2.i2, harmonic index (0, 1)
+
+Update:
+2.145e-13  V at node TL1.i1, harmonic index (0, 1)
+2.145e-13  V at node TL1.i2, harmonic index (0, 1)
+2.145e-13  V at node DA_RRCoupler1.Tee1.i3, harmonic index (0, 1)
+
+Solution:
+0.0002     V at node DA_RRCoupler1.Tee2.i3, harmonic index (0, 1)
+0.0001     V at node TL1.i2, harmonic index (0, 1)
+0.0001     V at node DA_RRCoupler1.Tee1.i3, harmonic index (0, 1)
+--------------------------
+
+
+HBAHB did not converge. The simulator will now try with HBAHB turned off.
+
+HB Sweep1[1].HB1[1/15] <rtd_4_balanced_mixer_lib:balanced_mixer:schematic>  P_LO=0  RF=(1->10)
+    Number of tones:   2.
+    Number of frequencies:   23.
+    Number of time samples:  128.
+    Number of HB equations (problem size): 3420.
+    Auto mode: on.
+    Convergence mode: Auto.
+    Linear solver: direct.
+Warning detected by hpeesofsim during HB analysis `HB1'.
+    For source `PORT2', (1 x freq[1])=-1.1e+09 Hz is 1.1e+09 Hz 
+        away from the closest analysis frequency at 0 Hz.
+        The maximum allowed frequency difference is 0.001 Hz.
+        This spectral component is turned off for this simulation.
+Error detected by hpeesofsim during HB analysis `HB1'.
+    Fundamental frequencies must be positive.
+
+
+--------------------------
+Solver convergence summary:
+--------------------------
+RHS:
+1.735e-18  A at node DA_RRCoupler1.Tee2.i1, harmonic index (0, 1)
+1.735e-18  A at node DA_RRCoupler1.Tee1.i1, harmonic index (0, 1)
+1.735e-18  A at node DA_RRCoupler1.Tee2.i2, harmonic index (0, 1)
+
+Update:
+2.145e-13  V at node TL1.i1, harmonic index (0, 1)
+2.145e-13  V at node TL1.i2, harmonic index (0, 1)
+2.145e-13  V at node DA_RRCoupler1.Tee1.i3, harmonic index (0, 1)
+
+Solution:
+0.0002     V at node DA_RRCoupler1.Tee2.i3, harmonic index (0, 1)
+0.0001     V at node TL1.i2, harmonic index (0, 1)
+0.0001     V at node DA_RRCoupler1.Tee1.i3, harmonic index (0, 1)
+--------------------------
+
+
+-------------------------------------------------------------------------------
+Simulation finished with errors.
+-------------------------------------------------------------------------------
+
+Resource usage:
+  Total stopwatch time     =     4.97 seconds.
+

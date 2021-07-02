@@ -1,0 +1,17 @@
+<!DOCTYPE Materials>
+<Materials>
+    <Conductors>
+        <Conductor parmtype="1" mur_real="1" mur_imag="" electron_path="" thermal_conductivity="401" tc1="" thermal_conductivity_in_z="" imag="" tc2="" heat_capacity="2.49E+06" name="Copper" real="5.8e7 Siemens/m" tnom=""/>
+        <Conductor parmtype="1" mur_real="1" mur_imag="" electron_path="" thermal_conductivity="" tc1="" thermal_conductivity_in_z="" imag="" tc2="" heat_capacity="" name="Typical_solder" real="0.71e7 Siemens/m" tnom=""/>
+    </Conductors>
+    <Dielectrics>
+        <Dielectric mur_real="1" er_real="4.6" mur_imag="" electron_path="" thermal_conductivity="" er_imag="" valuefreq="1 GHz" highfreq="1 THz" thermal_conductivity_in_z="" loss_type="1" heat_capacity="" name="FR_4_Core" er_loss="0.01" lowfreq="1 KHz"/>
+        <Dielectric mur_real="1" er_real="4.6" mur_imag="" electron_path="" thermal_conductivity="" er_imag="" valuefreq="1 GHz" highfreq="1 THz" thermal_conductivity_in_z="" loss_type="1" heat_capacity="" name="FR_4_Prepreg" er_loss="0.01" lowfreq="1 KHz"/>
+        <Dielectric mur_real="1" er_real="3.3" mur_imag="" electron_path="" thermal_conductivity="" er_imag="" valuefreq="1 GHz" highfreq="1 THz" thermal_conductivity_in_z="" loss_type="1" heat_capacity="" name="SolderMask" er_loss="" lowfreq="1 KHz"/>
+        <Dielectric mur_real="1" er_real="9.6" mur_imag="" electron_path="" thermal_conductivity="25.25" er_imag="" valuefreq="1 GHz" highfreq="1 THz" thermal_conductivity_in_z="" loss_type="1" heat_capacity="1.73E+06" name="Alumina" er_loss="" lowfreq="1 KHz"/>
+        <Dielectric mur_real="1" er_real="1" mur_imag="" electron_path="" thermal_conductivity="" er_imag="" valuefreq="1 GHz" highfreq="1 THz" thermal_conductivity_in_z="" loss_type="1" heat_capacity="" name="Dielectric_1" er_loss="" lowfreq="1 KHz"/>
+        <Dielectric mur_real="1" er_real="3.0" mur_imag="" electron_path="" thermal_conductivity="" er_imag="" valuefreq="10.0 GHz" highfreq="1 THz" thermal_conductivity_in_z="" loss_type="1" heat_capacity="" name="Rogers_RO3003" er_loss="0.0013" lowfreq="1 KHz"/>
+    </Dielectrics>
+    <Semiconductors/>
+    <roughness/>
+</Materials>

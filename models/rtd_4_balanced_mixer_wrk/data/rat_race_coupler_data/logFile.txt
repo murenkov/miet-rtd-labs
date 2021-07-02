@@ -1,0 +1,11 @@
+
+hpeesofsim (*) 510.shp Jul 22 2019, MINT version 5
+    (64-bit windows built: Mon Jul 22, 2019 22:53:59 +0000)
+
+
+SP SP1[1] <rtd_4_balanced_mixer_lib:rat_race_coupler:schematic>   freq=(7.35 GHz->12.25 GHz)
+
+
+Resource usage:
+  Total stopwatch time     =     2.64 seconds.
+

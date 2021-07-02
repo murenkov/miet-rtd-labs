@@ -1,0 +1,8 @@
+ConnectionMethod = 1
+SpiceDialect = 1
+ElementReplacementTable
+IgnoreFirstLine = false
+SuppressNameMapping = false
+ComponentName = spice1
+NumberOfPins = 0
+DirectoryToStoreNetList = C:\murenkov\rtd_4_balanced_mixer_wrk

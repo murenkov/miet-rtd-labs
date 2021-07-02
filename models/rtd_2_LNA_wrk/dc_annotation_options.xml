@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dc_annotation_options>
+ <options library="rtd_2_LNA_lib" cell="low_noise_amplifier" ToggleCurrent="true" ToggleVoltage="true" view="schematic"/>
+</dc_annotation_options>

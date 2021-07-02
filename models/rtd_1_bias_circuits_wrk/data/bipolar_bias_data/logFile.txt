@@ -1,0 +1,12 @@
+
+hpeesofsim (*) 510.shp Jul 22 2019, MINT version 5
+    (64-bit windows built: Mon Jul 22, 2019 22:53:59 +0000)
+
+
+DC DC1[1] <rtd_1_bias_circuits_lib:bipolar_bias:schematic>  
+.
+DC convergence achieved in 48 iterations.
+
+Resource usage:
+  Total stopwatch time     =     2.97 seconds.
+

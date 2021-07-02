@@ -1,0 +1,69 @@
+
+hpeesofsim (*) 510.shp Jul 22 2019, MINT version 5
+    (64-bit windows built: Mon Jul 22, 2019 22:53:59 +0000)
+
+Warning detected by hpeesofsim during netlist flattening.
+    Resistor `A1.RSSP' is shorted.
+
+
+CT Sweep1[1] <rtd_1_bias_circuits_lib:field:schematic>   SRC_GS.Vdc=(-7 V->0 V)
+
+DC Sweep1[1].DC1[1/11] <rtd_1_bias_circuits_lib:field:schematic>  SRC_GS.Vdc=-7 V  SRC_DS.Vdc=(0 V->8 V)
+.Pt DC convergence is used.
+
+.
+................................................................................
+
+DC Sweep1[1].DC1[2/11] <rtd_1_bias_circuits_lib:field:schematic>  SRC_GS.Vdc=-6.3 V  SRC_DS.Vdc=(0 V->8 V)
+.
+.
+................................................................................
+
+DC Sweep1[1].DC1[3/11] <rtd_1_bias_circuits_lib:field:schematic>  SRC_GS.Vdc=-5.6 V  SRC_DS.Vdc=(0 V->8 V)
+.
+.
+................................................................................
+
+DC Sweep1[1].DC1[4/11] <rtd_1_bias_circuits_lib:field:schematic>  SRC_GS.Vdc=-4.9 V  SRC_DS.Vdc=(0 V->8 V)
+.
+.
+................................................................................
+
+DC Sweep1[1].DC1[5/11] <rtd_1_bias_circuits_lib:field:schematic>  SRC_GS.Vdc=-4.2 V  SRC_DS.Vdc=(0 V->8 V)
+.
+.
+................................................................................
+
+DC Sweep1[1].DC1[6/11] <rtd_1_bias_circuits_lib:field:schematic>  SRC_GS.Vdc=-3.5 V  SRC_DS.Vdc=(0 V->8 V)
+.
+.
+................................................................................
+
+DC Sweep1[1].DC1[7/11] <rtd_1_bias_circuits_lib:field:schematic>  SRC_GS.Vdc=-2.8 V  SRC_DS.Vdc=(0 V->8 V)
+.
+.
+................................................................................
+
+DC Sweep1[1].DC1[8/11] <rtd_1_bias_circuits_lib:field:schematic>  SRC_GS.Vdc=-2.1 V  SRC_DS.Vdc=(0 V->8 V)
+.
+.
+................................................................................
+
+DC Sweep1[1].DC1[9/11] <rtd_1_bias_circuits_lib:field:schematic>  SRC_GS.Vdc=-1.4 V  SRC_DS.Vdc=(0 V->8 V)
+.
+.
+................................................................................
+
+DC Sweep1[1].DC1[10/11] <rtd_1_bias_circuits_lib:field:schematic>  SRC_GS.Vdc=-700 mV  SRC_DS.Vdc=(0 V->8 V)
+.
+.
+................................................................................
+
+DC Sweep1[1].DC1[11/11] <rtd_1_bias_circuits_lib:field:schematic>  SRC_GS.Vdc=0 V  SRC_DS.Vdc=(0 V->8 V)
+.
+.
+................................................................................
+
+Resource usage:
+  Total stopwatch time     =     2.69 seconds.
+
