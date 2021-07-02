@@ -2,4 +2,4 @@ INCLUDE $HPEESOF_DIR/oalibs/analog_rf.defs
 INCLUDE $HPEESOF_DIR/oalibs/dsp.defs
 DEFINE rtd_5_feedback_oscillator_lib rtd_5_feedback_oscillator_lib
 ASSIGN rtd_5_feedback_oscillator_lib libMode shared
-INCLUDE $HOME/RF_Transistors_vendor_kit/lib.defs
+INCLUDE C:/lab2/RF_Transistors_vendor_kit/lib.defs

@@ -1,4 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <dc_annotation_options>
- <options library="rtd_5_feedback_oscillator_lib" cell="feedback_oscillator" ToggleVoltage="true" view="schematic" ToggleCurrent="true"/>
+ <options view="schematic" library="rtd_5_feedback_oscillator_lib" ToggleVoltage="false" cell="feedback_oscillator" ToggleCurrent="false"/>
 </dc_annotation_options>
