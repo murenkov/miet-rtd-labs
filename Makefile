@@ -6,3 +6,6 @@ read:
 
 optimize-images:
 	leanify images/*/*
+
+clean:
+	git clean -fdx
